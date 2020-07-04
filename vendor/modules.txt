@@ -1,0 +1,34 @@
+# github.com/deckarep/golang-set v1.7.1
+github.com/deckarep/golang-set
+# github.com/gorilla/mux v1.7.4
+## explicit
+github.com/gorilla/mux
+# github.com/jdkato/prose v1.2.0
+## explicit
+# github.com/jdkato/prose/v2 v2.0.0
+## explicit
+github.com/jdkato/prose/v2
+# github.com/mingrammer/commonregex v1.0.1
+github.com/mingrammer/commonregex
+# github.com/mpvl/unique v0.0.0-20150818121801-cbe035fff7de
+## explicit
+github.com/mpvl/unique
+# gonum.org/v1/gonum v0.7.0
+gonum.org/v1/gonum/blas
+gonum.org/v1/gonum/blas/blas64
+gonum.org/v1/gonum/blas/cblas128
+gonum.org/v1/gonum/blas/gonum
+gonum.org/v1/gonum/floats
+gonum.org/v1/gonum/internal/asm/c128
+gonum.org/v1/gonum/internal/asm/c64
+gonum.org/v1/gonum/internal/asm/f32
+gonum.org/v1/gonum/internal/asm/f64
+gonum.org/v1/gonum/internal/cmplx64
+gonum.org/v1/gonum/internal/math32
+gonum.org/v1/gonum/lapack
+gonum.org/v1/gonum/lapack/gonum
+gonum.org/v1/gonum/lapack/lapack64
+gonum.org/v1/gonum/mat
+# gopkg.in/neurosnap/sentences.v1 v1.0.6
+gopkg.in/neurosnap/sentences.v1
+gopkg.in/neurosnap/sentences.v1/data
