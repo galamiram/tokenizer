@@ -1,0 +1,21 @@
+{{- if .Values.monitoring.enabled }}
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: {{ include "tokenizer.fullname" . }}
+  namespace: {{ .Values.monitoring.namespaceName }}
+  labels:
+    {{- include "tokenizer.labels" . | nindent 4 }}
+spec:
+  jobLabel: tokenizermetrics
+  selector:
+    matchLabels:
+      {{- include "tokenizer.selectorLabels" . | nindent 6 }}
+  namespaceSelector:
+    matchNames:
+    - {{ .Release.Namespace }}
+  endpoints:
+  - port: http
+    interval: {{ .Values.monitoring.interval }}
+    path: {{ .Values.monitoring.path }}
+{{- end }}

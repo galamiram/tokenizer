@@ -1,0 +1,5 @@
+# We don't need the alertmanager for this demo
+alertmanager:
+  enabled: false
+operator:
+  createCustomResource: false
