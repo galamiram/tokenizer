@@ -39,7 +39,7 @@
     ```
     xcode-select --install
     ```
-## Build the tokenizer container in the minikube docket environment
+## Build the Tokenizer container in the Minikube docker environment
 
 ```
 make build
@@ -55,7 +55,7 @@ make deploy
 make load-test
 ```
 
-## Tear Down
+## Tear Down Environment 
 ```
 make clean-all
 ```
